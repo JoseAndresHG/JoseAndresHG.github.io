@@ -17,7 +17,7 @@ body {
 header {
   text-align: center;
   padding: 4rem 1rem;
-  background-image: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('../bg-header.png');
+  background: linear-gradient(135deg, rgba(248, 250, 252, 0.75), rgba(207, 250, 232, 0.7));
   background-size: cover;
   background-position: center;
 }

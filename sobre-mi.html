@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí | Jose Andres Hernandez Galvis</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-700 font-sans leading-relaxed antialiased relative min-h-screen">
+  <div class="fixed inset-0 -z-20 h-full w-full bg-cover bg-center bg-no-repeat" style="background-image: url('bg-header.png');"></div>
+  <div class="fixed inset-0 -z-10 h-full w-full bg-white/55 backdrop-blur-[0.5px]"></div>
+
+  <header class="relative z-10 pt-8 pb-6">
+    <nav class="max-w-5xl mx-auto px-6 flex flex-wrap items-center justify-between gap-4">
+      <a href="index.html" class="text-sm font-bold uppercase tracking-[0.2em] text-teal-800 hover:text-teal-900">Inicio</a>
+      <div class="flex flex-wrap gap-3">
+        <a href="sobre-mi.html" class="px-4 py-2 rounded-full bg-teal-700 text-white text-sm font-semibold">Sobre mí</a>
+        <a href="experiencia.html" class="px-4 py-2 rounded-full bg-white/80 text-teal-900 border border-teal-200 text-sm font-semibold">Experiencia</a>
+        <a href="automatizacion.html" class="px-4 py-2 rounded-full bg-white/80 text-teal-900 border border-teal-200 text-sm font-semibold">Automatización</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-10 relative z-10">
+    <section class="bg-white/85 backdrop-blur-md p-8 rounded-3xl border border-teal-100 shadow-lg">
+      <h1 class="text-3xl sm:text-4xl font-black text-slate-900 uppercase tracking-wide mb-6">Sobre mí</h1>
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+        <div class="flex-shrink-0">
+          <div class="relative w-40 h-40 sm:w-48 sm:h-48 rounded-2xl overflow-hidden border-4 border-teal-600 shadow-md bg-gradient-to-br from-teal-100 to-slate-200">
+            <img src="foto.png" alt="Jose Andres Hernandez Galvis" class="w-full h-full object-cover object-center">
+          </div>
+        </div>
+
+        <div class="space-y-4 text-center md:text-left">
+          <h2 class="text-2xl font-bold text-slate-900">Ingeniero de Sistemas</h2>
+          <p class="text-teal-800 font-bold text-sm">Certificado Scrum Master Professional</p>
+          <p class="text-slate-700 text-sm sm:text-base leading-relaxed">
+            Ingeniero de Sistemas con más de 8 años de experiencia en calidad de software y 4 años en automatización de pruebas. Certificado como Scrum Master, Product Owner y Scrum Foundation, con experiencia en automatización Web, Mobile y API, con conocimientos en implementación, optimización de scripts de pruebas con asistentes de IA, y uso de servidores MCP (Model Context Protocol).
+          </p>
+          <p class="text-slate-700 text-sm sm:text-base leading-relaxed">
+            Pruebas de rendimiento, pruebas E2E, pruebas de APIs e integración de pruebas control de versionamiento, experiencia en mejora continua de procesos de calidad dentro de los sectores financiero y fintech, trabajando con metodologías ágiles y participando en estimación, planificación y ejecución de estrategias de pruebas funcionales y no funcionales.
+          </p>
+
+          <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-2">
+            <a href="mailto:jandreshernandez55@gmail.com" class="text-xs bg-teal-50 text-teal-900 border border-teal-200 px-3.5 py-2 rounded-lg font-semibold hover:bg-teal-100 transition shadow-sm">
+              ✉️ jandreshernandez55@gmail.com
+            </a>
+            <a href="https://github.com/JoseAndresHG" target="_blank" class="text-xs bg-slate-900 text-white border px-3.5 py-2 rounded-lg font-semibold hover:bg-slate-800 transition shadow-sm">
+              GitHub: JoseAndresHG
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="max-w-5xl mx-auto px-6 py-8 border-t border-teal-200/60 text-center text-slate-600 text-sm relative z-10 font-medium">
+    <p>© QA Automation Engineer.</p>
+  </footer>
+</body>
+</html>
