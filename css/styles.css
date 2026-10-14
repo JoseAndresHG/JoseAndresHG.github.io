@@ -58,3 +58,40 @@ main {
   margin-top: 0;
   color: var(--accent);
 }
+
+.whatsapp-float {
+  position: fixed;
+  right: 44px;
+  bottom: 44px;
+  z-index: 50;
+  display: block;
+  width: 68px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.08);
+}
+
+.whatsapp-float:focus-visible {
+  outline: 3px solid #0f766e;
+  outline-offset: 4px;
+}
+
+.whatsapp-float img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 8px rgb(15 23 42 / 22%));
+}
+
+@media (max-width: 640px) {
+  .whatsapp-float {
+    right: 26px;
+    bottom: 26px;
+    width: 58px;
+  }
+}
